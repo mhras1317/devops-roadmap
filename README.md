@@ -57,6 +57,11 @@
   - Games:
     - [Oh my git!](https://ohmygit.org/) (English Language)(If you prefer to learn while having fun)
 
+- ### Operatin systems (OS):
+  - Videos:
+    - [OS Learning with Saeed shahrivari](https://www.youtube.com/watch?v=ovpIUWrBbKU&list=PL7TO4klQB2X5UEP1A2U6FKCbtZMS0J5xS) (Persian Language) (Free)
+
+ 
 ## Step 1: IaC (Infrastructure as Code)
 - ### Hashicorp Terraform (Strongly Recommended)
     - [Terraform Tutorial](https://github.com/ahmadalibagheri/terraform-tutorial) (Sample Traning Code from non public cloud provider)
