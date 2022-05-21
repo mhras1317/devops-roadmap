@@ -57,7 +57,7 @@
   - Games:
     - [Oh my git!](https://ohmygit.org/) (English Language)(If you prefer to learn while having fun)
 
-- ### Operatin systems (OS):
+- ### Operating systems (OS):
   - Videos:
     - [OS Learning with Saeed shahrivari](https://www.youtube.com/watch?v=ovpIUWrBbKU&list=PL7TO4klQB2X5UEP1A2U6FKCbtZMS0J5xS) (Persian Language) (Free)
 
