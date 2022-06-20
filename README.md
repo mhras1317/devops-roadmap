@@ -7,6 +7,56 @@
 ## Introduction
 📌 DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile software development; several DevOps aspects came from the Agile methodology.
 
+### Table of Contents
+
+- [Programing Language](#programing-language)
+  - [Python](#Python)
+  - [Golang](#Golang)
+- [Step 0: Basic requirements](#step-0-basic-requirements)
+  - [Linux (LPIC-1)](#linux-lpic-1)
+  - [Docker (Mandatory)](#docker-mandatory)
+  - [Containerd or LXC (Optional)](#containerd-or-lxc-optional)
+  - [Bash-Script](#bash-script)
+  - [Git](#git)
+- [Step 1: IaC (Infrastructure as Code)](#step-1-iac-infrastructure-as-code)
+  - [Hashicorp Terraform (Strongly Recommended)](#hashicorp-terraform-strongly-recommended)
+  - [Pulumi (Normal)](#pulumi-normal)
+- [Step 2: Configuration Managment](#step-2-configuration-managment)
+  - [Ansible (Strongly Recommended)](#ansible-strongly-recommended)
+  - [Puppet (Important)](#puppet-important)
+  - [SaltStack (Normal)](#saltstack-normal)
+  - [Chef (Normal)](#chef-normal)
+- [Step 2.5: End-to-End Automation](#step-25-end-to-end-automation)
+  - [End-to-End Automation on VMware vsphere with Ansible and Terraform](#end-to-end-automation-on-vmware-vsphere-with-ansible-and-terraform)
+  - [Build all instance images with Hashicorp Packer](#build-all-instance-images-with-hashicorp-packer)
+- [Step 3: CI/CD (Continuous Integration and Continuous Delivery)](#step-3-cicd-continuous-integration-and-continuous-delivery)
+  - [Jenkins (Suitable for CI and CD in ALl infrastructure)(Free) (Strongly Recommended)](#jenkins-suitable-for-ci-and-cd-in-all-infrastructurefree-strongly-recommended)
+  - [CircleCI (Paid)(Important)](#circleci-paidimportant)
+  - [Teamcity (Paid)](#teamcity-paid)
+  - [Bamboo (Paid)](#bamboo-paid)
+  - [GitLab (Suitable for CI and CD in ALl infrastructure)(Paid)](#gitlab-suitable-for-ci-and-cd-in-all-infrastructurepaid)
+  - [GitHub (GitHub Actions)(Paid)](#github-github-actions-free)
+- [Step 4: Container Orchestration](#step-4-container-orchestration)
+  - [Kubernetes](#kubernetes)
+  - [Helm (Kubernetes Package manager)](#helm-kubernetes-package-manager)
+- [Step 4.5: GitOps Implementation](#step-45-gitops-implementation)
+  - [Jenkins-X (CI/CD) (Free)](#gitops)
+  - [ArgoCD (CD) (free)](#gitops)
+  - [Spinnaker (CD) (free)](#gitops)
+  - [Helm (Kubernetes Package manager)](#helm-kubernetes-package-manager)
+- [Step 5: Monitoring and Logging](#step-5-monitoring-and-logging)
+  - [Prometheous + Grafana (Free)](#prometheous--grafana-free)
+  - [Telegraf + InfluxDB + Grafana (Free)](#telegraf--influxdb--grafana-free)
+  - [Datadog (Paid)](#datadog-paid)
+  - [ELK Stack (Free)](#elk-stack-free)
+  - [NewRelic (Paid)](#newrelic-paid)
+- [Step 6: Public Clouds](#step-6-public-clouds)
+  - [Amazon Web Services (AWS)](#amazon-web-services-aws)
+  - [Microsoft Cloud (Azure)](#build-all-instance-images-with-hashicorp-packer)
+  - [Google Cloud (GCP)](#build-all-instance-images-with-hashicorp-packer)
+- [Step 7: Getting familiar with Agile software development](#step-7-getting-familiar-with-agile-software-development)
+
+
 ## Programing Language
 📌 Consider this as your benefit. A good DevOps engineer know at least one popular programming language.
 
